@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.carsdealership.Controller.LoginMenuController">
+   <children>
+      <AnchorPane prefHeight="436.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="74.0" layoutY="53.0" text="Welcome to Car dealership">
+               <font>
+                  <Font size="38.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Login" layoutX="225.0" layoutY="174.0" promptText="login" />
+            <PasswordField fx:id="Password" layoutX="225.0" layoutY="226.0" promptText="password" />
+            <Button layoutX="274.0" layoutY="295.0" mnemonicParsing="false" onAction="#checkIfLoginAndPassIsOk" text="Log in" />
+            <Button layoutX="550.0" layoutY="360.0" mnemonicParsing="false" onAction="#exit" text="exit" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
