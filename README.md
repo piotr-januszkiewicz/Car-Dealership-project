@@ -1,3 +1,3 @@
-# Java
-short (i think) journey with java. List of projects:
-- Car dealership
+# Car Dealership project
+
+Project written in Java with GUI based on JavaFX. This project is for practice purpose only and should not be used as actual working application (yet)
